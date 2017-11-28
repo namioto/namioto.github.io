@@ -193,7 +193,7 @@ for small screen(<720px):
 
 #logo {
     position: absolute;
-    top: 0;
+    top: 16px;
     left: 30px;
     width: 250px;
     height: 60px;
