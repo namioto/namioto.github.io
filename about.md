@@ -2,11 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-image: /files/covers/blog.jpg
+image: /files/covers/question.jpg
 sitemap: yes
 tags: [about]
 ---
 
-블로그 입니다.
+{{page.title}} 블로그 입니다.
 
 Powered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
