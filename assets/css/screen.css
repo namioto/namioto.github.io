@@ -195,12 +195,14 @@ for small screen(<720px):
     position: absolute;
     top: 0;
     left: 30px;
-    width: 123px;
+    width: 250px;
     height: 60px;
     margin: 0 0;
     padding: 0;
     /*background: url(../images/pc/tech_logo.png) no-repeat center;*/
     background-size: 123px 21px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 #menu {
@@ -1196,11 +1198,12 @@ body.page-template {
         display: inline-block;
         left: 50px;
         right: 50px;
-        top: 0;
+        top: 10px;
         height: 50px;
         margin: 0 auto;
         /*background-image: url(../images/mo/tech_logo.png);*/
         background-size: 99px 17px;
+        /*font-size:25px*/
     }
 
     #menu {
