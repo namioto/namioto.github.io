@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+namioto.github.io
+==============
 
-You can use the [editor on GitHub](https://github.com/namioto/namioto.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> tech.kakao.com 의 기술 블로그 포맷을 따와서 입맛대로 수정함
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+[GitHub Pages]: https://pages.github.com
+[Jekyll]: https://jekyllrb.com
+[front matter]: https://jekyllrb.com/docs/frontmatter/
+[gfm]: https://guides.github.com/features/mastering-markdown/
+[kramdown]: http://kramdown.gettalong.org
+[rouge]: http://rouge.jneen.net
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## License
 
-# Header 1
-## Header 2
-### Header 3
+This software is licensed under the [Apache 2 license](LICENSE.txt), quoted below.
 
-- Bulleted
-- List
+Copyright 2017 Kakao Corp. <http://www.kakaocorp.com>
 
-1. Numbered
-2. List
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/namioto/namioto.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
