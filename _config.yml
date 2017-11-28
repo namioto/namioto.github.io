@@ -57,9 +57,9 @@ asset_url: /assets
 
 # google_analytics:
 #   ua: 'UA-72007721-1'
-# facebook:
-#   app_id: ''
-#   username:
+facebook:
+  app_id: '1467010523412755'
+  username:daesung.park.10
 # twitter:
 #   username:
 # google_plus:
