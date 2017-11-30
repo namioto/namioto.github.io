@@ -193,13 +193,11 @@ for small screen(<1000px):
 
 #logo {
     position: absolute;
-    top: 16px;
     left: 30px;
     width: 250px;
     height: 60px;
     margin: 0 0;
-    padding: 0;
-    /*background: url(../images/pc/tech_logo.png) no-repeat center;*/
+    padding: 16px 0;
     background-size: 123px 21px;
     font-size: 25px;
     font-weight: 500;
@@ -1203,13 +1201,10 @@ body.page-template {
         position: absolute;
         display: inline-block;
         left: 60px;
-        right: 0px;
-        top: 15px;
+        right: 60px;
         height: 50px;
+        text-align: center;
         margin: 0 auto;
-        /*background-image: url(../images/mo/tech_logo.png);*/
-        background-size: 99px 17px;
-        /*font-size:25px*/
         font-size: 20px;
     }
 
@@ -1501,6 +1496,12 @@ body.page-template {
     #post-footer {
         height: 100px;
         margin: 0 15px;
+    }
+
+    #disqus_thread {
+        position: relative;
+        margin: 0 15px;
+        padding-bottom: 15px;
     }
 
     #author-image {
