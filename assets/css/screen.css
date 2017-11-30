@@ -980,6 +980,7 @@ body.tag-template #navbar {
 #disqus_thread {
     position: relative;
     margin: 0 80px;
+    padding-bottom: 30px;
 }
 
 #author-image {
