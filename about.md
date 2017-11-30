@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About
+title: 'About'
 permalink: /about/
 image: /files/covers/question.jpg
 sitemap: yes
 tags: [about]
 cover:
-  title: Pixabay: 무료 이미지 저장소
+  title: 'Pixabay: 무료 이미지 저장소'
   link: https://pixabay.com
 ---
 
