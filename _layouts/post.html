@@ -35,8 +35,8 @@ layout: default
             <span>Read more posts by this author</span>
         </a>
     </div>
+    {% include disqus.html %}
 </div>
-{% include disqus.html %}
 <div id="post-links" class="container">
     {% assign prev = page.previous %}
     {% if prev %}
