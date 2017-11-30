@@ -5,6 +5,9 @@ permalink: /about/
 image: /files/covers/question.jpg
 sitemap: yes
 tags: [about]
+cover:
+  title: Pixabay: 무료 이미지 저장소
+  link: https://pixabay.com
 ---
 
 {{page.title}} 블로그 입니다.
