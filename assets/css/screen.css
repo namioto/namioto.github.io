@@ -977,6 +977,11 @@ body.tag-template #navbar {
     margin: 0 80px;
 }
 
+#disqus_thread {
+    position: relative;
+    margin: 0 80px;
+}
+
 #author-image {
     position: absolute;
     top: 30px;

@@ -34,9 +34,8 @@ layout: default
         <a id="post-more" href="{{ author.url }}">
             <span>Read more posts by this author</span>
         </a>
-
-        {% include disqus.html %}
     </div>
+    {% include disqus.html %}
 </div>
 <div id="post-links" class="container">
     {% assign prev = page.previous %}
