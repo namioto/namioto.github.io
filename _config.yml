@@ -15,7 +15,7 @@ permalink: /:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 
 # Theme-Preview: http://jwarby.github.io/jekyll-pygments-themes/languages/python.html
-syntax_theme: monokai
+syntax_theme: native
 
 markdown: kramdown
 
