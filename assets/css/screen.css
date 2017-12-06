@@ -27,15 +27,13 @@ pre,
 code,
 tt,
 kbd {
-    font-family: 'Kakao Regular', monospace;
+    font-family: 'Kakao', monospace;
+    font-size: 14px;
 }
 
 div.highlighter-rouge {
   padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
   margin: 0;
-  font-size: 85%;
   border-radius: 3px;
 }
 
