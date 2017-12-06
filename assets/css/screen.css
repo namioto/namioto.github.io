@@ -27,7 +27,7 @@ pre,
 code,
 tt,
 kbd {
-    font-family: Consolas, Monaco, 'Kakao', monospace;
+    font-family: Consolas, Monaco, FreeSans, 'Kakao', monospace;
     font-size: 12px;
 }
 
