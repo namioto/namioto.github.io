@@ -31,9 +31,20 @@ kbd {
     font-weight: 300;
 }
 
-div.highlighter-rouge,
+pre.highlight {
+  font-family: 'Kakao', monospace;
+}
+
+div.highlighter-rouge {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 3px;
+}
+
 code.highlighter-rouge {
-  font-family: 'Kakao', monospace !important;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
