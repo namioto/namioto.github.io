@@ -4,7 +4,7 @@ description: |
   내 머릿속 데이터베이스 (http://mydb.tistory.com) 에서
   여러가지 제약사항에 걸려 이전된 블로그.
   kakao 기술블로그 포맷을 베이스로 구성되어 있습니다.
-baseurl: ''
+baseurl: '/'
 url: 'http://namioto.github.io'
 timezone: Asia/Seoul
 
@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 markdown: kramdown
 
-krandown:
+kramdown:
   input: GFM
   highlighter: rouge
 
