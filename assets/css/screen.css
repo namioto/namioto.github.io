@@ -27,8 +27,7 @@ pre,
 code,
 tt,
 kbd {
-    font-family: 'Kakao', monospace;
-    font-weight: 300;
+    font-family: 'Kakao Regular', monospace;
 }
 
 div.highlighter-rouge {
