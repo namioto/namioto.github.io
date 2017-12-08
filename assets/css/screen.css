@@ -37,6 +37,10 @@ div.highlighter-rouge {
   border-radius: 3px;
 }
 
+div.highlighter-rouge pre{
+  padding: 10px 15px !important;
+}
+
 /*table.rouge-table {
   border: 0px !important;
 }
