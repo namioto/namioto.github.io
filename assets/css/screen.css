@@ -37,6 +37,14 @@ div.highlighter-rouge {
   border-radius: 3px;
 }
 
+table.rouge-table {
+  border:0px;
+}
+
+table.rouge-table td.rouge-gutter, td.rouge-code {
+  border:0px;
+}
+
 code.highlighter-rouge {
   padding: 0;
   padding-top: 0.2em;
