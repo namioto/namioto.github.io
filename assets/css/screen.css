@@ -38,7 +38,7 @@ div.highlighter-rouge {
 }
 
 table.rouge-table {
-  border:0px;
+  border:0px !important;
 }
 
 table.rouge-table td.rouge-gutter, td.rouge-code {
@@ -962,7 +962,7 @@ body.tag-template #navbar {
 }
 
 /* @@iolo */
-#post-content table {
+/*#post-content table {
     margin: 1em auto;
     border: 3px solid #f3cf00;
 }
@@ -976,7 +976,7 @@ body.tag-template #navbar {
 #post-content td {
     border: 1px solid #e6e6e6;
     padding: 10px;
-}
+}*/
 
 #post-content .footnotes p {
     margin: 0;
