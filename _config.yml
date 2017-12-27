@@ -127,7 +127,7 @@ responsive_image:
   # [Optional, Default: false]
   # Cache the result of {% responsive_image %} and {% responsive_image_block %}
   # tags. See the "Caching" section of the README for more information.
-  cache: false
+  cache: true
 
   # [Optional, Default: []]
   # By default, only images referenced by the responsive_image and responsive_image_block
