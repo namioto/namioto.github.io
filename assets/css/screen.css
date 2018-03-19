@@ -12,6 +12,23 @@ body {
     background-color: #fff;
 }
 
+/* 드래그 색상 변경 */
+::selection {
+    background:#006acc;
+    color: #FFF;
+    text-shadow: none;
+}
+::-moz-selection {
+    background:#006acc;
+    color: #FFF;
+    text-shadow: none;
+}
+::-webkit-selection {
+    background:#006acc;
+    color: #FFF;
+    text-shadow: none;
+}
+
 h1,
 h2,
 h3,
