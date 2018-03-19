@@ -14,17 +14,17 @@ body {
 
 /* 드래그 색상 변경 */
 ::selection {
-    background:#006acc;
+    background:#91cc00;
     color: #FFF;
     text-shadow: none;
 }
 ::-moz-selection {
-    background:#006acc;
+    background:#91cc00;
     color: #FFF;
     text-shadow: none;
 }
 ::-webkit-selection {
-    background:#006acc;
+    background:#91cc00;
     color: #FFF;
     text-shadow: none;
 }
