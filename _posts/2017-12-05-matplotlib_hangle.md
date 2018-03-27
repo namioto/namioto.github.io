@@ -3,7 +3,7 @@ layout: post
 title: '[Python] Matplotlib에 한글 출력하기'
 author: namioto
 date: 2017-12-05 14:13
-tags: ['python', 'matplotlib', '한글']
+tags: ['Python', 'matplotlib', '한글']
 image: /files/covers/matplotlib.png
 ---
 # matplotlib에 한글 출력 하기
