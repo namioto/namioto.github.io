@@ -4,7 +4,7 @@ title: '[Python] Subprocessing - 외부 프로그램 실행하기'
 author: namioto
 date: '2018-03-27 13:28'
 tags:
-  - Python
+  - python
 ---
 
 # Python Subprocess
