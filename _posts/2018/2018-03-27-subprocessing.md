@@ -22,7 +22,7 @@ Subprocess 모듈의 기능은 크게 다음 두가지로 나눠 기억하면 �
 - [**output**](#output)
 
 
-##<a name='call'></a>Call
+ ## Call<a name='call'></a>
 먼저 `Call`은 외부 프로그램을 호출해서 그 프로그램의 종료코드(Exit Code) 값을 받아온다고 생각하면 된다.
 왠만한 프로그램은 프로그램 실행 결과에 따라 종료코드를 반환한다.
 
@@ -72,7 +72,7 @@ subprocess.call(args, *,
 - stdin, stdout, stderr : 표준 입출력에 대한 리다이렉션을 정의할 수 있다. 보통은 생략한다.
 - timeout : 외부 프로그램을 호출하고, 해당 프로그램이 종료될 때까지 기다리게 되는데(단위:초), 이 값을 설정하면 해당 시간 만큼 대기 후 `TimeoutExpired` 예외를 내 뱉는다. (외부 프로그램이 행걸리는 상황에 대해 대비할 수 있다.)
 
-##<a name='output'></a>Output
+## Output<a name='output'></a>
 call은 종료코드를 리턴 값으로 받아왔다면 output은 프로그램의 출력 결과를 가져온다.
 
 output은 `check_output()` 메소드만 존재한다.
