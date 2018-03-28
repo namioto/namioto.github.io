@@ -8,8 +8,6 @@ image: /files/covers/matplotlib.png
 ---
 # OneHot Encoding
 
-matplotlib에 한글을 출력하는 경우, 폰트 문제로 한글이 깨져서 출력될 수 있다.
-이런 경우 다음의 코드를 넣어주면 한글이 정상적으로 출력된다.
 
 ```python
 from matplotlib import font_manager, rc
