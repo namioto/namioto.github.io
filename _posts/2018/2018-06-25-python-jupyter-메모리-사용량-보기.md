@@ -16,7 +16,7 @@ categories: []
 1. `memory_profiler` 을 설치한다.
 
 **SHELL**
-```shell
+```sh
 pip install memory_profiler
 ```
 
