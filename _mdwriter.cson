@@ -31,7 +31,7 @@ siteImagesDir: "files/images/{year}/{month}/"
 # URLs to tags/posts/categories JSON files
 # https://github.com/zhuochun/md-writer/wiki/Settings-for-Front-Matters
 urlForPosts: ""
-urlForTags: ""
+urlForTags: "https://namioto.github.io/assets/tags.json"
 urlForCategories: ""
 
 # The front matter key name
@@ -54,6 +54,9 @@ date: "{date}"
 author: namioto
 tags: []
 images: "/files/covers/image"
+cover:
+  title:
+  link:
 ---
 """
 
