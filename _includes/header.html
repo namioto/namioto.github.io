@@ -19,7 +19,15 @@
         <li class="{% if page.url == '/tags/'  %} active {% endif %}"><a href="{{ base_path }}/tags/">TAGS</a></li>
         <li><a href="http://mydb.tistory.com" target="_blank">이전 블로그</a></li>
     </ul>
-</div>
+
+    <div id="google_translate_element"></div>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-53013994-2'}, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
 <!-- Script pointing to jekyll-search.js -->
 <script src="{{site.baseurl}}/dest/jekyll-search.min.js" type="text/javascript"></script>
 
