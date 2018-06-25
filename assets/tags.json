@@ -10,8 +10,8 @@ layout: null
     "posts": [
         {% for post in site.posts %}
         {
-          "title": {{ post.title }},
-          "url": {{ post.url }}
+          "title": "{{ post.title }}",
+          "url": "{{ post.url }}"
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ]
