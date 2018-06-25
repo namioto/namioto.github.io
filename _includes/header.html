@@ -13,13 +13,6 @@
     </div>
     <ul class="search__results" id="results-container"></ul>
 
-    <ul id="menu" class="nav">
-        <li class="{% if page.url != '/about/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
-        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">ABOUT</a></li>
-        <li class="{% if page.url == '/tags/'  %} active {% endif %}"><a href="{{ base_path }}/tags/">TAGS</a></li>
-        <li><a href="http://mydb.tistory.com" target="_blank">이전 블로그</a></li>
-    </ul>
-
     <div id="google_translate_element"></div>
       <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -28,6 +21,13 @@
       </script>
       <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
+
+    <ul id="menu" class="nav">
+        <li class="{% if page.url != '/about/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
+        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">ABOUT</a></li>
+        <li class="{% if page.url == '/tags/'  %} active {% endif %}"><a href="{{ base_path }}/tags/">TAGS</a></li>
+        <li><a href="http://mydb.tistory.com" target="_blank">이전 블로그</a></li>
+    </ul>
 <!-- Script pointing to jekyll-search.js -->
 <script src="{{site.baseurl}}/dest/jekyll-search.min.js" type="text/javascript"></script>
 
