@@ -10,17 +10,15 @@
     </a>
     <div id="search">
         <input id="search-input" type="search" placeholder="Search..." value="" />
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-53013994-2'}, 'google_translate_element');
+          }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
     <ul class="search__results" id="results-container"></ul>
-
-    <div id="google_translate_element"></div>
-      <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-53013994-2'}, 'google_translate_element');
-        }
-      </script>
-      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    </div>
 
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/about/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
