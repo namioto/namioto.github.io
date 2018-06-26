@@ -1,43 +1,38 @@
 <div id="header">
-    <button id="menu-toggle" type="button">
-        <span class="sr-only">Toggle Navigation Menu</span>
-    </button>
-    <button id="search-toggle" type="button">
-        <span class="sr-only">Toggle Search Form</span>
-    </button>
-    <a id="logo" href="/">
-        {{site.title}}
-    </a>
-    <div id="search">
-        <input id="search-input" type="search" placeholder="Search..." value="" />
-        <div id="google_translate_element"></div>
-        <script type="text/javascript">
-          function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-53013994-2'}, 'google_translate_element');
-          }
-        </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    </div>
-    <ul class="search__results" id="results-container"></ul>
+  <button id="menu-toggle" type="button">
+    <span class="sr-only">Toggle Navigation Menu</span>
+  </button>
+  <button id="search-toggle" type="button">
+    <span class="sr-only">Toggle Search Form</span>
+  </button>
+  <a id="logo" href="/">
+    {{site.title}}
+  </a>
+  <div id="search">
+    <input id="search-input" type="search" placeholder="Search..." value="" />
+  </div>
+  <ul class="search__results" id="results-container"></ul>
 
-    <ul id="menu" class="nav">
-        <li class="{% if page.url != '/about/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
-        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">ABOUT</a></li>
-        <li class="{% if page.url == '/tags/'  %} active {% endif %}"><a href="{{ base_path }}/tags/">TAGS</a></li>
-        <li><a href="http://mydb.tistory.com" target="_blank">이전 블로그</a></li>
-    </ul>
-<!-- Script pointing to jekyll-search.js -->
-<script src="{{site.baseurl}}/dest/jekyll-search.min.js" type="text/javascript"></script>
+  <ul id="menu" class="nav">
+    <li class="{% if page.url != '/about/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
+    <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">ABOUT</a></li>
+    <li class="{% if page.url == '/tags/'  %} active {% endif %}"><a href="{{ base_path }}/tags/">TAGS</a></li>
+    <li><a href="http://mydb.tistory.com" target="_blank">이전 블로그</a></li>
+  </ul>
+  <!-- Script pointing to jekyll-search.js -->
+  <script src="{{site.baseurl}}/dest/jekyll-search.min.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-    SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search2.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: '<li>No results found</li>',
-        limit: 15,
-        fuzzy: false,
-        exclude: ['Welcome']
-    })
-</script><!-- #header -->
+  <script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search2.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: '<li>No results found</li>',
+    limit: 15,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+  </script>
+  {% include google_i18n.html %}
+</div><!-- #header -->

@@ -12,6 +12,14 @@ body {
     background-color: #fff;
 }
 
+/* Google Translate i18n Style */
+div#google_translate_element {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+
 /* 드래그 색상 변경 */
 ::selection {
     background:#91cc00;
