@@ -35,10 +35,10 @@ div#google_translate_element {
 }
 .goog-te-menu-value {
   color: #000 !important;
-  }
 }
+
 /* 아래로 펼침 커서는 숨기기 */
-.goog-te-menu-value span:nth-child(5) {
+.goog-te-menu-value span:nth-child(3), .goog-te-menu-value span:nth-child(5) {
   display:none;
 }
 
@@ -52,6 +52,8 @@ div#google_translate_element {
     display: none;
 }
 .goog-te-banner-frame.skiptranslate {display: none!important;}
+
+
 body {top: 0px!important;}
 /* ================================== *\
     Mediaqueries
