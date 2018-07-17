@@ -26,7 +26,7 @@ div#google_translate_element {
 .goog-te-gadget-simple  {
   background-color: rgba(255,255,255,0.20)!important;
   border: 1px solid #e6e6e6 !important;
-  padding: 6px 18px 5px 5px !important;
+  padding: 5px 18px 5px 5px !important;
   border-radius: 20px!important;
   font-size: 0.8rem!important;
 }
@@ -40,6 +40,9 @@ div#google_translate_element {
 /* 아래로 펼침 커서는 숨기기 */
 .goog-te-menu-value span:nth-child(3), .goog-te-menu-value span:nth-child(5) {
   display:none;
+}
+.goog-te-menu-value img {
+	display:none;
 }
 
 .goog-te-gadget-icon {
@@ -58,7 +61,7 @@ body {top: 0px!important;}
 /* ================================== *\
     Mediaqueries
 \* ================================== */
-@media (max-width: 667px) {
+@media only screen and (min-width: 1000px) {
 	#google_translate_element {
 		bottom: calc(100% - 50% - 53px);
 		left: 16px!important;
@@ -73,6 +76,9 @@ body {top: 0px!important;}
 			width: calc(100% - 32px)!important;
 			text-align: center;
 		}
+    .goog-te-gadget-simple span {
+      display: none;
+    }
 	}
 }
 
@@ -1746,11 +1752,6 @@ body.page-template {
         background-image: url(../images/mo/icon_larrow@2x.png);
     }
 
-    #kakao-link-btn {
-        background-image: url(../images/mo/share_talk@2x.png);
-        background-size: 22px 22px;
-    }
-
     #share-kakaostory {
         background-image: url(../images/mo/share_story@2x.png);
         background-size: 22px 22px;
@@ -1834,11 +1835,6 @@ body.page-template {
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@3x.png);
-    }
-
-    #kakao-link-btn {
-        background-image: url(../images/mo/share_talk@3x.png);
-        background-size: 22px 22px;
     }
 
     #share-kakaostory {
