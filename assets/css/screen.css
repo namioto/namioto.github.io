@@ -63,22 +63,7 @@ body {top: 0px!important;}
 \* ================================== */
 @media only screen and (max-width: 1000px) {
 	#google_translate_element {
-		bottom: calc(100% - 50% - 53px);
-		left: 16px!important;
-		width: 100%!important;
-		goog-te-gadget {
-			width:100%!important;
-		}
-		.skiptranslate {
-			width:100%!important;
-		}
-		.goog-te-gadget-simple {
-			width: calc(100% - 32px)!important;
-			text-align: center;
-		}
-    .goog-te-gadget-simple span {
-      display: none;
-    }
+	  display: none !important;  
 	}
 }
 
