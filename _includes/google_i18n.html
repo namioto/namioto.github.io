@@ -1,4 +1,59 @@
+<style type="text/css">
+  /* Google Translate i18n Style */
+  div#google_translate_element {
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    top: 15px;
+  }
+  .goog-te-gadget {
+    font-family: 'Noto Sans KR', 'NanumBarunGothic', sans-serif !important;
+    text-transform: uppercase;
+  }
+  .goog-te-gadget-simple  {
+    background-color: rgba(255,255,255,0.20)!important;
+    border: 1px solid #e6e6e6 !important;
+    padding: 5px 18px 5px 5px !important;
+    border-radius: 20px!important;
+    font-size: 0.8rem!important;
+  }
+  .goog-te-menu2 {
+    max-width: 100%;
+  }
+  .goog-te-menu-value {
+    color: #000 !important;
+  }
+
+  /* 아래로 펼침 커서는 숨기기 */
+  .goog-te-menu-value span:nth-child(3), .goog-te-menu-value span:nth-child(5) {
+    display:none;
+  }
+  .goog-te-menu-value img {
+  	display:none;
+  }
+
+  .goog-te-gadget-icon {
+      background-image: url(../images/earth.png)!important;
+      background-position: 0px 0px !important;
+      height: 24px!important;
+      width: 24px!important;
+      margin-right: 4px!important;
+  }
+  .goog-te-banner-frame.skiptranslate {display: none!important;}
+
+  /* ================================== *\
+      Mediaqueries
+  \* ================================== */
+  @media only screen and (max-width: 1000px) {
+  	#google_translate_element {
+  	  display: none !important;
+  	}
+  }
+</style>
+
 <div id="google_translate_element"></div>
+
+
 <script type="text/javascript">
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-53013994-2'}, 'google_translate_element');
