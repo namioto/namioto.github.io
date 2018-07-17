@@ -17,56 +17,39 @@ div#google_translate_element {
   display: inline-block;
   position: absolute;
   right: 200px;
-  top: 20px;
+  top: 15px;
 }
 .goog-te-gadget {
-  font-family: Roboto, 'Open Sans', sans-serif!important;
+  font-family: 'Noto Sans KR', 'NanumBarunGothic', sans-serif !important;
   text-transform: uppercase;
 }
 .goog-te-gadget-simple  {
   background-color: rgba(255,255,255,0.20)!important;
-  border: 1px solid rgba(255,255,255,0.50) !important;
-  padding: 8px!important;
-  border-radius: 4px!important;
-  font-size: 1rem!important;
-  line-height:2rem!important;
-  display: inline-block;
-  cursor: pointer;
-  zoom: 1;
+  border: 1px solid #e6e6e6 !important;
+  padding: 6px 18px 5px 5px !important;
+  border-radius: 20px!important;
+  font-size: 0.8rem!important;
 }
 .goog-te-menu2 {
   max-width: 100%;
 }
 .goog-te-menu-value {
-  color: #fff !important;
-    &:before {
-    font-family: 'Material Icons';
-    content: "\E927";
-    margin-right: 16px;
-    font-size: 2rem;
-    vertical-align: -10px;
-    // width:32px!important;
+  color: #000 !important;
   }
 }
+/* 아래로 펼침 커서는 숨기기 */
 .goog-te-menu-value span:nth-child(5) {
   display:none;
 }
 .goog-te-menu-value span:nth-child(3) {
   border:none!important;
-  font-family: 'Material Icons';
-  &:after {
-    font-family: 'Material Icons';
-    content: "\E5C5";
-    font-size: 1.5rem;
-    vertical-align: -6px;
-  }
 }
 
 .goog-te-gadget-icon {
-    background-image: url(https://placehold.it/32)!important;
-    background-position: 0px 0px;
-    height: 32px!important;
-    width: 32px!important;
+    background-image: url(../images/earth.png)!important;
+    background-position: 0px 0px !important;
+    height: 24px!important;
+    width: 24px!important;
     margin-right: 8px!important;
     //     OR
     display: none;
