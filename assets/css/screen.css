@@ -61,7 +61,7 @@ body {top: 0px!important;}
 /* ================================== *\
     Mediaqueries
 \* ================================== */
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 	#google_translate_element {
 		bottom: calc(100% - 50% - 53px);
 		left: 16px!important;
