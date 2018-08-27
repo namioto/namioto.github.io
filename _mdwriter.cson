@@ -53,7 +53,7 @@ title: "{title}"
 date: "{date}"
 author: namioto
 tags: []
-images: "/files/covers/image"
+image: "/files/covers/image"
 cover:
   title:
   link:
