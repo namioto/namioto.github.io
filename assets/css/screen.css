@@ -55,6 +55,10 @@ div.highlighter-rouge {
   border-radius: 3px;
 }
 
+div.highlighter-rouge a{
+  color: #A0A0A0;
+}
+
 div.highlighter-rouge pre{
   padding: 10px 15px !important;
 }
