@@ -19,7 +19,7 @@ siteUrl: "https://namioto.github.io/"
 
 # Root directory to your blog
 # - Leave it empty to use the current project path (recommended)
-siteLocalDir: ""
+siteLocalDir: "~/Documents/namioto.github.io/"
 # Directory to drafts from siteLocalDir
 siteDraftsDir: "_drafts/"
 # Directory to posts from siteLocalDir
